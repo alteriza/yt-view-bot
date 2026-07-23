@@ -35,6 +35,8 @@ source venv/bin/activate
 ### 4. Install Dependencies
 Install all required Python libraries listed in the requirements file:
 ```bash
+sudo pacman -S tk python-pip
+yay -S thorium-browser-bin
 pip install -r req.txt
 ```
 
